@@ -4,11 +4,15 @@ html, body{
     box-sizing:border-box;
 }
 
+h3,{
+    font:white;
+}
+
 body{
     width:90%;
     margin:0 auto;
     padding:10px;
-    background-color:black;
+    background-color:tan;
     box-sizing:border-box;
     font-size:40px;
 }
@@ -26,15 +30,12 @@ header{
     
 }
 
-
-
 main{
-    width:90%;
+    width:100%;
     height:800px;
-    background-color:lightgray;
+    background-color:black;
     box-sizing:border-box;
-    text-align: center;
-    
+    text-align: center; color: white;
     border:solid 5px black;
    
     
@@ -44,7 +45,7 @@ main{
     margin:0;
     padding:15px;
     float:left;
-    width:calc(100%/4);
+    width:calc(80%/4);
     height:100%;
     background-color:darkblue;
     border:solid 5px black;
@@ -52,9 +53,9 @@ main{
 
 #two{
     margin:0;
-    padding:inherit;
+    padding:15px;
     float:left;
-    width:calc(100%/4);
+    width:calc(85%/4);
     height:100%;
     background-color:lightblue;
     border:solid 5px black;
@@ -64,31 +65,17 @@ main{
     margin:0;
     padding:15px;
     float:left;
-    width:calc(100%/4);
+    width:calc(85%/4);
     height:100%;
     background-color: darkgreen;
     border:solid 5px black;
 }
 
-/*
 #four{
     margin:0;
     padding:15px;
     float:left;
-    width:calc(100%/4);
+    width:calc(85%/4);
     height:100%;
-    background-color: purple;
-    border:dashed 5px black;
-}
-*/
-
-
-footer{
-
-    clear:both;
-    text-align:center;
-    width:90%;
-    background-color: cyan;
-    border:solid 5px black;
-    
-}
+    background-color: lightgreen;
+    border:solid 5px white;
